@@ -1,0 +1,43 @@
+
+body {
+    text-align: center;
+    background-color: #084177;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    color: #ed6663;
+    font-size: 4rem;
+}
+
+.outer {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#input > input {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgb(146, 146, 146);
+}
+
+li {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #ffa372;
+}
+
+li > button {
+    margin-left: 40px;
+    font-size: 0.7rem;
+}
+
