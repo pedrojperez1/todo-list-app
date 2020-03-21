@@ -29,7 +29,7 @@ function createNewTodoElement(text) {
     let newLi = document.createElement("li"); // create list item
     newLi.innerText = text;
     let newBtn = document.createElement("button"); // add remove button
-    newBtn.innerText = "Remove";
+    newBtn.innerHTML = "&#10006;";
     newLi.append(newBtn);
     return newLi;
 }
